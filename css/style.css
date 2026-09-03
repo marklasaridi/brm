@@ -334,6 +334,14 @@ button { cursor: pointer; }
   overflow: hidden;
   box-shadow: none;
 }
+.card a {
+  position: relative;
+  padding: 9px 0;
+  color: var(--color-text-secondary);
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-semibold);
+  text-decoration:none;
+}
 .card-content {
   display: flex;
   flex-direction: column;
@@ -348,6 +356,10 @@ button { cursor: pointer; }
 }
 .card-title { margin:0; font-size:var(--fs-xl); line-height:var(--lh-snug); }
 .card-sub { margin:8px 0 0; color:var(--color-text-secondary); }
+
+#contact .card {
+  justify-content: start;
+}
 
 /* Buttons */
 .btn {
