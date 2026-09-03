@@ -336,16 +336,16 @@ button { cursor: pointer; }
 }
 .card a {
   position: relative;
-  padding: 9px 0;
   color: var(--color-text-secondary);
   font-size: var(--fs-sm);
   font-weight: var(--fw-semibold);
   text-decoration:none;
 }
+.card a:hover { color: var(--color-brand-primary); }
 .card-content {
   display: flex;
   flex-direction: column;
-  padding: var(--space-6);
+  padding: var(--space-4);
   justify-content: space-between;
   height: 100%;
 }
@@ -359,6 +359,7 @@ button { cursor: pointer; }
 
 #contact .card {
   justify-content: start;
+  gap: var(--space-2);
 }
 
 /* Buttons */
