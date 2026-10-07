@@ -226,6 +226,10 @@ button { cursor: pointer; }
   color:var(--color-brand-primary);
 }
 
+.ui-mobile-menu-call {
+  display: none !important;
+}
+
 .ui-navbar-inner {
   max-width: 1440px;
   margin: 0 auto;
@@ -416,6 +420,10 @@ button { cursor: pointer; }
 
   .ui-menu-call {
     display: none;
+  }
+  
+  .ui-mobile-menu-call {
+    display: inline-flex !important;
   }
 
   .ui-navbar-inner {
